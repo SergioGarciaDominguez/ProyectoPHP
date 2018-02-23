@@ -1,0 +1,133 @@
+body {
+  /*margin-top: 4rem;*/
+}
+
+#header {
+  background-color: #333;
+  height: 3rem;
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  text-align: center;
+}
+
+#header > div {
+  margin: 0.12rem auto;
+  height: 2.76rem;
+}
+
+#header h1 {
+  color: #eee;
+  float: left;
+  font-size: 1rem;
+  line-height: 3em;
+  margin: 0 auto;
+  position: relative;
+}
+
+#logo {
+  float: left;
+}
+#header > div > * {
+  position: relative;
+  float:left;
+}
+
+#menu > ul > li {
+  float: left;
+  position: relative;
+  color: #fff;
+  list-style: none;
+  padding: 0 2rem;
+}
+
+#menu {
+  margin: 0.12 auto;
+  height: 2.76rem;
+}
+
+#menu > ul {
+  
+}
+
+#menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
+
+#dropdown-menu-btn {
+  border: 1px solid #fff;
+  border-radius: 0.2rem;
+  float: right;
+}
+
+#content {
+  margin-top: 4rem;
+}
+
+
+.center {
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
+#table {
+  border-radius: 5px;
+  border-collapse: collapse;
+  width: 85%;
+}
+
+#table th, #table td {
+  border: 1px solid black;
+  padding: 0.05rem 0.2rem;
+}
+
+#table a {
+  display: inline-block;
+}
+
+#table thead, #table tbody {
+  overflow: scroll;
+}
+
+#table thead {
+  background-color: orange;
+}
+
+#table th:first-child, #table tr:first-child th:last-child {
+  border-radius: 5px;
+}
+
+#table tr:last-child td:first-child, #table td:last-child {
+  border-radius: 5px;
+}
+.delete {
+  background-color: black;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+.edit {
+  background-color: red;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+#add-form {
+  display: none;
+}
+
+#add-form > div {
+  display: inline-block;
+}
+
+#add-form > div > label {
+  display: block;
+}
